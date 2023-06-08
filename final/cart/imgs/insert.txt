@@ -1,0 +1,37 @@
+INSERT INTO `products` (`id`, `name`, `desc`, `price`, `rrp`, `quantity`, `img`, `date_added`) VALUES
+(1, 'Shirt', '<p>A well fitted formal shirt always makes you look sharp. Make an impression in this maroon textured Regular Fit shirt from peter england by peter england</p>\r\n<h3>Brand</h3>\r\n<ul>\r\n<li>Emerald</li>\r\n<li>Signature</li>\r\n<li>Envoy</li>\r\n<li>Le Bond</li>\r\n</ul>', '2900.99', '0.00', 10, 'shirt.jpg', '2022-03-13 17:55:22'),
+(2, 'T-Shirt', '', '1400.99', '1000.99', 34, 'tshirt.jpg', '2022-03-13 18:52:49'),
+(3, 'Trouser', '', '1900.99', '1000.00', 23, 'trouser.jpg', '2022-03-13 18:47:56'),
+(4, 'Suits', '', '36000.99', '0.00', 7, 'Suit.jpg', '2022-03-13 17:42:04');
+
+
+
+featured-image
+
+
+
+INSERT INTO `products` (`id`, `name`, `desc`, `price`, `rrp`, `quantity`, `img`, `date_added`) VALUES
+(1, 'Long sleeve shirt', 'color:blue mix green', '3.99', '0.00', 15, 's1.jpg', '2022-03-13 17:42:04'),
+(2, 'Long sleeve shirt', 'color:cream', '3.99', '0.00', 15, 's2.jpg', '2022-03-13 17:42:04'),
+(3, 'Long sleeve shirt', 'color:light blue', '4.99', '0.00', 15, 's3.jpg', '2022-03-13 17:42:04'),
+(4, 'Printed long sleeve shirt', '', '3.99', '0.00', 15, 's4.jpg', '2022-03-13 17:42:04'),
+
+(5, 'Formal Trouser', 'color:Brown', '5.99', '0.00', 15, 't1.jpg', '2022-03-13 17:42:04'),
+(6, 'Denim', '', '6.99', '0.00', 15, 't2.jpg', '2022-03-13 17:42:04'),
+(7, 'Casual Trouser', '', '7.99', '0.00', 15, 't3.jpg', '2022-03-13 17:42:04'),
+(8, 'Formal Trouser', 'color:Light Grey', '5.99', '0.00', 15, 't4.jpg', '2022-03-13 17:42:04'),
+
+(9, 'O neck tshirt long sleeve', 'color:Red', '3.00', '0.00', 15, 'ts1.jpg', '2022-03-13 17:42:04'),
+(10, 'O neck tshirt short sleeve', '', '2.59', '0.00', 15, 'ts2.jpeg', '2022-03-13 17:42:04'),
+(11, 'O neck tshirt long sleeve', 'color:blue', '3.00', '0.00', 15, 'ts3.jpg', '2022-03-13 17:42:04'),
+(12, 'O neck tshirt short sleeve', 'color:Black and White', '2.59', '0.00', 15, 'ts4.jpg', '2022-03-13 17:42:04'),
+
+(13, 'Printed Blouse', '', '8.59', '0.00', 15, 'b1.jpg', '2022-03-13 17:42:04'),
+(14, 'Printed Blouse', '', '8.59', '0.00', 15, 'b2.jpeg', '2022-03-13 17:42:04'),
+(15, 'Printed Blouse', '', '8.59', '0.00', 15, 'b3.jpg', '2022-03-13 17:42:04'),
+(16, 'Plain Colour Blouse', '', '8.59', '0.00', 15, 'b1.jpg', '2022-03-13 17:42:04'),
+
+
+
+
+
