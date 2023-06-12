@@ -205,6 +205,7 @@
 	<?php
 		include "Conn.php";
 		mysqli_select_db($link, "textiles");
+
 		
 		if(isset($_POST['next'])){
 			if(isset($_POST['size'])){

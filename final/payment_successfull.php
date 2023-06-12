@@ -19,9 +19,9 @@
             /*overflow: hidden;*/  
             margin-right:auto; 
 			margin-left:auto;	
-            margin-top:50px;
+            margin-top:10px;
             padding: 100px;  
-            background: #949494;  
+            background: #17A398;  
             border-radius: 15px ;  
             bottom:20px;  
 			height:400px;
@@ -30,7 +30,7 @@
 	    h1{  
         text-align: center;  
         color: black;  
-        padding: 20px; 
+        padding: 0px; 
         font-weight: 1000; 
         font-family: 'Arial';
 		text-size:200;	
@@ -152,6 +152,22 @@
   color: black;
          
 }
+table {
+	
+	border-collapse: collapse;
+	margin-top : -40px;
+	background-color: #acecf7;
+	
+}
+
+table, th, td {
+	  border: 1px solid #000;
+	  color: #000;
+}
+
+th, td {
+  padding: 8px;
+}
 </style>
 </head>
 <body>
@@ -167,10 +183,68 @@
 		<h1>Payment successful..</h1>
 		<h2>Thank you for your payment..</h2><br>
 		
+			
+		<?php
+			include "Conn.php";
+
+			// Establish a connection to the database
+			$link=mysqli_connect("localhost","root","");
+
+			// Check connection
+			if (!$link) {
+				die("Connection failed: " . mysqli_connect_error());
+			}
+
+			mysqli_select_db($link, "textiles");
+
+			// Check if $_SESSION['oid'] is set
+			if (!isset($_SESSION['oid'])) {
+				echo "Session variable 'oid' is not set.";
+				exit;
+			}
+
+			$O_id = $_SESSION['oid'];
+			//echo $O_id;
+
+			$query = "SELECT model, size, qty, colour, total FROM order_details WHERE order_id = '".$O_id."'";
+
+			$result = mysqli_query($link, $query);
+
+			while ($row = mysqli_fetch_assoc($result)) {
+				echo "<table border = 1>";
+				echo "<tr>";
+				echo "<td>Model</td>";
+				echo "<td>".$row['model']."</td>";
+				echo "</tr>";
+				echo "<tr>";
+				echo "<td>Size</td>";
+				echo "<td>".$row['size']."</td>";
+				echo "</tr>";
+				echo "<tr>";
+				echo "<td>Quantity</td>";
+				echo "<td>".$row['qty']."</td>";
+				echo "</tr>";
+				echo "<tr>";
+				echo "<td>color</td>";
+				echo "<td>".$row['colour']."</td>";
+				echo "</tr>";
+				echo "<tr>";
+				echo "<td>Total</td>";
+				echo "<td>".$row['total']."</td>";
+				echo "</tr>";
+				echo "</table>";
+			}
+
+			// Close the database connection
+			mysqli_close($link);
+		?>
+</div>
+
 	
 		
 	
-		</div>	
+		
 
 </body>
 </html>
+
