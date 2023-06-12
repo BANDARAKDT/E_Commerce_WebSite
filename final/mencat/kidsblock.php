@@ -28,17 +28,15 @@
 		<div id="signlog">
 		
 			<a id="sign_a" href="Ongoing 2/loginterface.php"><img src="R.png" id="logpic"></a>
-        </div>
-        <div>
-        <a id="cart" href="cart/index.php"><img src="cart.png" id="logpic"></a>
+			<a id="cart" href="cart/index.php"><img src="cart.png" id="logpic"></a>
         </div>
     </div>
 </div>
 
     <div class="menu-bar"> 
          <ul>
-            <li class="active">  <a href="#"><i class="fa fa-home" ></i> Home ></a></li>
-            <li> <a href="#"> <i class="fa fa-male"></i> Men  </a>
+            <li class="active">  <a href="../Home page.php"><i class="fa fa-home" ></i> Home ></a></li>
+            <li> <a href="menblock.php"> <i class="fa fa-male"></i> Men  </a>
           <ul>
               
 
@@ -53,7 +51,7 @@
             </ul>
         </div>
 
-            <li> <a href="#"><i class="fa fa-female" ></i> Women  </a></li>
+            <li> <a href="womenblock.php"><i class="fa fa-female" ></i> Women  </a></li>
 
             <div class="sub-menu-1">
             <ul>
@@ -62,7 +60,7 @@
                  <li> <a href="#"> cat01  </a></li>
             </ul>
         </div>
-            <li> <a href=""><i class="fa fa-child" ></i> Kids  </a></li>
+            <li> <a href="kidsblock.php"><i class="fa fa-child" ></i> Kids  </a></li>
             <li> <a href="#"> <i class="fa fa-gift" ></i>Gift vauchars  </a></li>
              <li> <a href="sales tab.php"><i class="fa fa-line-chart" ></i> Sale  </a></li>
             <li> <a href="#"><i class="fa fa-bell" ></i> New arrivals  </a></li>
