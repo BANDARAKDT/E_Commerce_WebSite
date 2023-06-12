@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="lightslider.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="lightslider.js"></script>
+    <title>T-shirts</title>
+  </head>
+  <body>
+    <h1><center> ~~ T-SHIRTS ~~</h1>
+    <p>Discover cool styles for your little one! As the best online shopping platform in Sri Lanka, we have got a full collection of casual and formal kids wear for boys.</p>
+    <ul id="autoWidth" class="cs-hidden">
+      <li class="item-a">
+        <div class="box">
+          <div class="slide-img">
+            <img src="t6.JPG" alt="" />
+            <div class="overlay">
+              <a href="../../../makeorder_boy_tshirt.php" class="buy-btn"  name="new_ld_top">Buy Now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">Boy's Collared T-Shirt</a>
+              <span>Noe Arrival</span>
+            </div>
+            <a href="#" class="price">Rs 640.00</a>
+          </div>
+        </div>
+      </li>
+      <li class="item-b">
+        <div class="box">
+          <div class="slide-img">
+            <img src="t2.JPG" alt="" />
+            <div class="overlay">
+              <a href="../../../makeorder_boy_tshirt.php" class="buy-btn"  name="new_ld_top">Buy Now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">Boy's T Printed Shirt</a>
+              <span>Noe Arrival</span>
+            </div>
+            <a href="#" class="price">Rs 790.00</a>
+          </div>
+        </div>
+      </li>
+      <li class="item-c">
+        <div class="box">
+          <div class="slide-img">
+            <img src="t3.JPG" alt="" />
+            <div class="overlay">
+              <a href="../../../makeorder_boy_tshirt.php" class="buy-btn"  name="new_ld_top">Buy Now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">Boy's T Shirt - Navy</a>
+              <span>Noe Arrival</span>
+            </div>
+            <a href="#" class="price">Rs 790.00</a>
+          </div>
+        </div>
+      </li>
+      <li class="item-d">
+        <div class="box">
+          <div class="slide-img">
+            <img src="t4.JPG" alt="" />
+            <div class="overlay">
+              <a href="../../../makeorder_boy_tshirt.php" class="buy-btn"  name="new_ld_top">Buy Now</a>
+            </div>
+          </div>
+          <div class="detail-box">
+            <div class="type">
+              <a href="#">Boy's Printed T-Shirt</a>
+              <span>Noe Arrival</span>
+            </div>
+            <a href="#" class="price">Rs 899,00</a>
+          </div>
+        </div>
+      </li>
+    
+    </ul>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
