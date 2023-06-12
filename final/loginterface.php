@@ -86,7 +86,7 @@ img.avatar {
 		<video autoplay loop muted id="background-video" >
         <source src="white shirt.mp4" type="video/mp4">
 		</video>
-		<h1>Log in or Create an account to Fashion Store</h1><br>
+		<h1>Log In or Sign Up</h1><br>
 		
         <div class="booking"> 
 			
