@@ -1,4 +1,7 @@
 <?php
+
+include 'functions.php';
+$pdo = pdo_connect_mysql();
 // The amounts of products to show on each page
 $num_products_on_each_page = 4;
 // The current page, in the URL this will appear as index.php?page=products&p=1, index.php?page=products&p=2, etc...

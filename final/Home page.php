@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="Header_css_file.css">
     
     <link rel="stylesheet" href="slideshow.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+	<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">-->
 
 
     
@@ -53,7 +55,7 @@
 		
 			<a id="sign_a" href="Ongoing 2/loginterface.php"><img src="R.png" id="logpic"></a>
 		
-        <a id="cart" href="cart/index.php"><img src="cart.png" id="logpic"></a>
+        <a id="cart" href="cart/cart.php"><img src="cart.png" id="logpic"></a>
     </div>
 	
 <div>
@@ -255,8 +257,8 @@
   	 		<div class="footer-col">
   	 			<h4>company</h4>
   	 			<ul>
-  	 				<li><a href="#">about us</a></li>
-  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="02.jpg" target="blank">about us</a></li>
+  	 				<li><a href="01.jpg" target="blank">our services</a></li>
   	 				<li><a href="#">privacy policy</a></li>
   	 				<li><a href="#">affiliate program</a></li>
   	 			</ul>
@@ -292,6 +294,48 @@
   	 	</div>
   	 </div>
   </footer>
+  
+  <!--Offer popuop-->
+ <!-- <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header"></div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="soffer.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h4>Seasonal Offers</h4>
+                                        <p>Buy 3 Get One Free..!</p>
+                                        <!--<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>-->
+                                  <!--  </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Launch Modal</button>-->
+            <!--</div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        setTimeout(function(){
+            $("#myModal").modal('show');
+        }, 2000);
+       // $("#myModal").modal('show');
+    });
+</script>-->
 
 
 
