@@ -288,10 +288,11 @@
 							(address,city,state,zip,email,order_id)
 							VALUES
 							('$address','$city','$state','$zip','$email','$O_id')");
-			
-		echo '<script>window.location="payment_successfull.html"</script>';
+							
+		if(isset($_POST['sub'])){
+		echo '<script>window.location="payment_successfull.php"</script>';
 		//header("Location: payment_successfull.php");
-
+		}
 		
 	}
 
